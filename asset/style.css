@@ -26,12 +26,21 @@ img {
   background-image: url(./img/jumbo-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-.hero .row {
-  height: 500px;
+.hero .row,
+.important-game .row {
+  height: 600px;
 }
 
 .gallery-img {
   border-radius: 10px;
+}
+
+.important-game {
+  background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

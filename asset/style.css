@@ -2,6 +2,10 @@ img {
   width: 100%;
 }
 
+.blue {
+  color: #58a2de;
+}
+
 #logo {
   width: 100px;
   height: auto;

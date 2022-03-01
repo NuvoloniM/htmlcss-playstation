@@ -1,0 +1,33 @@
+img {
+  width: 100%;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+.dropdown-toggle::after {
+  border: none;
+  content: url(./img/chevron-down-solid.svg);
+  width: 10px;
+  vertical-align: 0;
+}
+
+.lens {
+  width: 50%;
+}
+
+.hero {
+  background-image: url(./img/jumbo-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .row {
+  height: 500px;
+}
+
+.gallery-img {
+  border-radius: 10px;
+}

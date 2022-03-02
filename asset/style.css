@@ -11,8 +11,28 @@ a {
   color: #fff;
 }
 
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.btn-dark:hover {
+  border: 2px solid #000;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.btn-danger:hover {
+  border: 2px solid #cd3d0e;
+  box-shadow: inset 0 0 0 2px #000;
+}
+
+.btn-primary:hover {
+  border: 2px solid #2d64e6;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
 .blue {
-  color: #58a2de;
+  color: #2d64e6;
 }
 
 #logo {
@@ -41,11 +61,25 @@ a {
 
 .hero .row,
 .important-game .row {
-  height: 600px;
+  height: 70vh;
+}
+
+.card:hover {
+  transform: translateY(-20px);
 }
 
 .gallery-img {
-  border-radius: 10px;
+  border-radius: 20px;
+}
+
+.active .gallery-img,
+.gallery-img:hover {
+  border: 3px solid #2d64e6;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.gallery-img:hover {
+  transform: translateY(-20px);
 }
 
 .important-game {
@@ -101,4 +135,8 @@ footer {
 
 .sie {
   width: 150px;
+}
+
+footer span {
+  text-decoration: underline;
 }

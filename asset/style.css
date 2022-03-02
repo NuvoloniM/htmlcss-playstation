@@ -62,13 +62,18 @@ img {
 
 .banner {
   background-color: #bebcbb;
-  /* background-image: url(./img/ps-plus-april-monthly-games-featured-image-block.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right; */
 }
 
 .btn_plus {
   color: #58a2de;
   background-color: #ebe8e6;
+}
+
+.banner-2 {
+  background-color: #161c3b;
+}
+
+.btn_now {
+  color: #000;
+  background-color: #fff;
 }

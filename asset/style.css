@@ -140,3 +140,8 @@ footer {
 footer span {
   text-decoration: underline;
 }
+
+.social_container {
+  margin: 0 auto;
+  max-width: 900px;
+}

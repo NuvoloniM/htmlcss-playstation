@@ -61,7 +61,7 @@ a:hover {
   background-image: url(./img/jumbo-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 
 .hero .row,
